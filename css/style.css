@@ -488,43 +488,37 @@ body {
 }
 
 .container {
-	display: flex;
-	gap: 20px;
-	border-radius: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-radius: 10px;
 	overflow: hidden;
 }
 
 .block {
-	width: 150px;
-	height: 150px;
+	width: 180px;
+	height: 160px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	color: #fff;
-	background: linear-gradient(145deg, #d9d9d9, #ffffff);
-	border-radius: 20px;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
-	font-size: 24px;
-	font-weight: bold;
 }
 
 .days {
-	background: linear-gradient(145deg, #e25c67, #bf4a51);
+	background: linear-gradient(90deg, #b33a46, #9b313c);
 }
 
 .hours {
-	background: linear-gradient(145deg, #c1d8e1, #9fb8c2);
+	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
 }
 
 .minutes {
-	background: linear-gradient(145deg, #a55872, #7e3f57);
+	background-color: #874562;
 }
 
 .seconds {
-	background: linear-gradient(145deg, #1874a8, #125b83);
+	background-color: #145689;
 }
-
 
 .date {
 	color: #874562;
